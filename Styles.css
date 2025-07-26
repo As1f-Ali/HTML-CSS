@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    background-image: url(/assets/images/background.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.flex-outer {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgb(215, 215, 215);
+}
+
+.flex-inner {
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5vmax;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.flex-inner label{
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 5px;
+    width: 25vmax;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+
+.flex-inner input {
+    margin-bottom: 16px;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 25vmax;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#submit {
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: rgb(50, 110, 190);
+    color: white;
+    border: 0px;
+    margin-top: 15px;
+}
+
+#forgot {
+    display: grid;
+    justify-self: end;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: rgb(50, 110, 190);
+    text-decoration: none;
+    font-size: 16px;
+}

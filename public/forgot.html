@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="../Styles.css">
+</head>
+<body>
+    <div class="flex-outer">
+        <div class="flex-inner">
+            <form action="../SignIn.html">
+                <p style="font-size: 25px; margin-top: 0px; margin-bottom: 30px;"><strong>Reset Password</strong></p>
+                <label for="email">Email:</label> <br>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+                <br>
+                <label for="password">New Password:</label> <br>
+                <input type="password" name="password" id="password" placeholder="Enter New Password" pattern="[a-zA-Z0-9]{8,20}" required>
+                <br>
+                <label for="password">Conferm Password:</label> <br>
+                <input type="password" name="password" id="password" placeholder="Confirm Password" pattern="[a-zA-Z0-9]{8,20}" required>
+                <br>
+                <input type="submit" name="submit" id="submit" value="Confirm">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

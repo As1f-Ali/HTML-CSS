@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../Styles.css">
+</head>
+<body>
+    <div class="flex-outer">
+        <div class="flex-inner">
+            <p style="font-size: 16px; color: rgb(100, 100, 100); margin: 0px;">Start Your Journey.</p>
+            <p style="font-size: 25px; margin: 0px;"><strong>Welcome</strong></p>
+            <!-- <div style="height: 1px; width: 100%; background-color: grey;"></div> -->
+            <p style="font-size: 20px; margin-top: 4px; margin-bottom: 15px;"><strong>Create Your Account</strong></p>
+            <form action="../SignIn.html">
+                <label for="name">Name:</label> <br>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+                <br>
+                <label for="password">Password:</label> <br>
+                <input type="password" name="password" id="password" placeholder="Enter Your Password" pattern="[a-zA-Z0-9]{8,20}" required>
+                <br>
+                <input type="submit" name="submit" id="submit" value="Sign Up">
+                <p style="text-align: center; font-size: 16px; margin-top: 0px; color: rgb(100, 100, 100);">Already have an account? <a href="../SignIn.html"><strong>Signin</strong></a></p>
+            </form>
+        </div>  
+    </div>
+</body>
+</html>
