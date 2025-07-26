@@ -19,7 +19,7 @@
                 <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
                 <br>
                 <label for="password">Password:</label> <br>
-                <input type="password" name="password" id="password" placeholder="Enter Your Password" pattern="[a-zA-Z0-9]{8,20}" required>
+                <input type="password" name="password" id="password" placeholder="Enter Your Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d!@#$%^&*]{8,20}" required>
                 <br>
                 <a href="./public/forgot.html" id="forgot"><Strong>Forgot Password?</Strong></a>
                 <input type="submit" name="submit" id="submit" value="Sign In">

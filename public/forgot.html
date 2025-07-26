@@ -15,12 +15,22 @@
                 <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
                 <br>
                 <label for="password">New Password:</label> <br>
-                <input type="password" name="password" id="password" placeholder="Enter New Password" pattern="[a-zA-Z0-9]{8,20}" required>
+                <input type="password" name="password" id="password" placeholder="Enter New Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d!@#$%^&*]{8,20}" required>
                 <br>
                 <label for="password">Conferm Password:</label> <br>
-                <input type="password" name="password" id="password" placeholder="Confirm Password" pattern="[a-zA-Z0-9]{8,20}" required>
+                <input type="password" name="password" id="password" placeholder="Confirm Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d!@#$%^&*]{8,20}" required>
                 <br>
                 <input type="submit" name="submit" id="submit" value="Confirm">
+                <div class="password-rules">
+                    <strong>Password must contain:</strong>
+                    <ul>
+                        <li>8–20 characters</li>
+                        <li>At least one uppercase letter (A–Z)</li>
+                        <li>At least one lowercase letter (a–z)</li>
+                        <li>At least one number (0–9)</li>
+                        <li>Special characters allowed (e.g. !, @, #)</li>
+                    </ul>
+                </div>
             </form>
         </div>
     </div>

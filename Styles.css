@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-image: url(/assets/images/background.svg);
+    background-image: url(./assets/images/background.svg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -27,6 +27,15 @@ body {
     padding: 5vmax;
     border-radius: 10px;
     border: 1px solid white;
+}
+
+.password-rules {
+    font-size: 0.95rem;
+    margin-top: 8px;
+    padding: 10px 15px;
+    background-color: white;
+    border-left: 3px solid rgb(50, 110, 190);
+    border-radius: 10px;
 }
 
 .flex-inner label{
@@ -77,3 +86,14 @@ a {
     text-decoration: none;
     font-size: 16px;
 }
+
+.password-rules ul {
+    margin: 0;
+    padding-left: 20px;
+    color: rgb(60, 60, 60)
+  }
+
+  .password-rules li {
+    margin-bottom: 4px;
+    list-style-type: disc;
+  }
